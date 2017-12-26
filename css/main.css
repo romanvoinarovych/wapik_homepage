@@ -424,7 +424,7 @@
       padding-bottom: 10em; }
 
 .wp-pricing {
-  padding: 95px 20px 0;
+  padding: 95px 20px 100px;
   font-family: 'Roboto', 'Arial', sans-serif; }
   .wp-pricing h2 {
     margin: 0;
@@ -531,7 +531,10 @@
         -o-transition: all .4s ease-in;
         transition: all .4s ease-in; }
   .wp-pricing .wp-pricing__list {
-    padding: 40px 0 0; }
+    padding: 40px 0 60px; }
+    @media only screen and (max-width: 768px) {
+      .wp-pricing .wp-pricing__list {
+        padding: 40px 20px 0; } }
     .wp-pricing .wp-pricing__list ul {
       padding: 0;
       list-style: none; }
@@ -543,6 +546,10 @@
       color: #83a7a5;
       position: relative;
       padding: 0 0 0 34px; }
+      @media only screen and (max-width: 768px) {
+        .wp-pricing .wp-pricing__list li {
+          line-height: 1;
+          padding: 10px 0 10px 34px; } }
     .wp-pricing .wp-pricing__list li::before {
       position: absolute;
       left: 0;
@@ -552,5 +559,24 @@
       font-size: 26px;
       line-height: 1;
       color: #83a7a5; }
+  .wp-pricing .color {
+    color: #6fb048;
+    padding-top: 16px; }
+  .wp-pricing .wp-pricing--link {
+    padding: 1em 0 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.11;
+    text-align: center;
+    color: #0f5f5c;
+    font-weight: 500; }
+  .wp-pricing .wp-pricing--link:hover {
+    text-decoration: none;
+    color: #6fb048;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in; }
 
 /*# sourceMappingURL=main.css.map */
