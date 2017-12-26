@@ -509,7 +509,7 @@
 	}
 }
 .wp-pricing {
-	padding: 95px 0 0;
+	padding: 95px 20px 0;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	h2 {
 		margin: 0;
@@ -633,6 +633,9 @@
 		ul {
 			padding: 0;
 			list-style: none;
+			// @media only screen and(max-width: 768px) {
+			// 	padding-left: 40px;
+			// }
 		}
 		li {
 			font-family: 'Roboto', 'Arial', sans-serif;
