@@ -309,7 +309,7 @@
       padding: 0;
       list-style: none; }
     .wp-section .wp-section__container .wp-section__text li {
-      font-family: 'Open Sans', 'Arial', sans-serif;
+      font-family: 'Roboto', 'Arial', sans-serif;
       font-size: 14px;
       line-height: 2.14;
       text-align: left;
@@ -530,5 +530,27 @@
         -ms-transition: all .4s ease-in;
         -o-transition: all .4s ease-in;
         transition: all .4s ease-in; }
+  .wp-pricing .wp-pricing__list {
+    padding: 40px 0 0; }
+    .wp-pricing .wp-pricing__list ul {
+      padding: 0;
+      list-style: none; }
+    .wp-pricing .wp-pricing__list li {
+      font-family: 'Roboto', 'Arial', sans-serif;
+      font-size: 14px;
+      line-height: 2.71;
+      text-align: left;
+      color: #83a7a5;
+      position: relative;
+      padding: 0 0 0 34px; }
+    .wp-pricing .wp-pricing__list li::before {
+      position: absolute;
+      left: 0;
+      top: calc((100% - 26px) / 2);
+      font-family: 'ionicons';
+      content: "\f3fe";
+      font-size: 26px;
+      line-height: 1;
+      color: #83a7a5; }
 
 /*# sourceMappingURL=main.css.map */
