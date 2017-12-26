@@ -99,7 +99,12 @@
         background-color: rgba(255, 255, 255, 0.7); }
       .wp-header .wp-header__info .wp-header__navigation .wp-header__nav li:hover > a {
         color: #ffffff;
-        text-decoration: none; }
+        text-decoration: none;
+        -webkit-transition: all .4s ease-in;
+        -moz-transition: all .4s ease-in;
+        -ms-transition: all .4s ease-in;
+        -o-transition: all .4s ease-in;
+        transition: all .4s ease-in; }
       .wp-header .wp-header__info .wp-header__navigation .wp-header__nav a {
         text-transform: uppercase;
         font-family: 'Montserrat', 'Arial', sans-serif;
@@ -155,7 +160,12 @@
           width: 50%; } }
     .wp-header .wp-header__title-container .wp-header__link:hover {
       text-decoration: none;
-      background-color: rgba(255, 255, 255, 0.7); }
+      background-color: rgba(255, 255, 255, 0.7);
+      -webkit-transition: all .4s ease-in;
+      -moz-transition: all .4s ease-in;
+      -ms-transition: all .4s ease-in;
+      -o-transition: all .4s ease-in;
+      transition: all .4s ease-in; }
 
 .wp-bestof {
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -391,5 +401,134 @@
     width: 15px;
     height: 15px;
     background-color: #ffffff; }
+
+.wp-section__two {
+  background: #eef1ec url("../img/world.png") no-repeat;
+  background-position: right center;
+  position: relative;
+  font-family: 'Roboto', 'Arial', sans-serif; }
+  .wp-section__two .wp-section__two--text {
+    height: 100%;
+    margin: auto 0; }
+    .wp-section__two .wp-section__two--text h2 {
+      padding-top: 5em;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: left;
+      color: #0f5f5c; }
+    .wp-section__two .wp-section__two--text p {
+      font-size: 14px;
+      line-height: 1.71;
+      color: #83a7a5;
+      text-align: justify;
+      padding-bottom: 10em; }
+
+.wp-pricing {
+  padding: 95px 0 0;
+  font-family: 'Roboto', 'Arial', sans-serif; }
+  .wp-pricing h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    color: #0f5f5c;
+    padding-bottom: 20px; }
+  .wp-pricing h2::after {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 0;
+    height: 1px;
+    background-color: #6fb048;
+    width: 15%;
+    left: calc((100% - 15%) / 2); }
+  .wp-pricing p {
+    text-align: center;
+    margin: 20px 0 20px;
+    color: #83a7a5;
+    font-size: 16px; }
+  .wp-pricing .wp-pricing--item__block {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 80px; }
+    @media only screen and (max-width: 768px) {
+      .wp-pricing .wp-pricing--item__block {
+        flex-wrap: wrap; } }
+    .wp-pricing .wp-pricing--item__block .wp-pricing--item {
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+      border: solid 1px #c1d3d2; }
+      @media only screen and (max-width: 768px) {
+        .wp-pricing .wp-pricing--item__block .wp-pricing--item {
+          width: 55%; } }
+      @media only screen and (max-width: 576px) {
+        .wp-pricing .wp-pricing--item__block .wp-pricing--item {
+          width: 90%; } }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item h3 {
+        text-transform: uppercase;
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.33;
+        color: #6fb048;
+        padding-top: 1em;
+        margin: 0; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item h2 {
+        font-size: 65px;
+        margin: 0;
+        color: #0f5f5c;
+        line-height: 1;
+        padding-top: .5em;
+        padding-bottom: 0;
+        font-weight: 600;
+        font-family: 'Montserrat', 'Arial', sans-serif; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item h2::after {
+        display: none; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item p {
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-size: 14px;
+        color: #0f5f5c;
+        margin: 0;
+        font-weight: 700; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        list-style: none;
+        padding: 20px 0 0; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item li {
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-size: 14px;
+        line-height: 2;
+        color: #83a7a5; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 50%;
+        border-radius: 2px;
+        background-color: #83a7a5;
+        text-transform: uppercase;
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        color: #ffffff;
+        line-height: 3;
+        font-size: 13px;
+        margin: 10px 0 30px;
+        text-align: center; }
+      .wp-pricing .wp-pricing--item__block .wp-pricing--item a:hover {
+        text-decoration: none;
+        background-color: #6fb048;
+        -webkit-transition: all .4s ease-in;
+        -moz-transition: all .4s ease-in;
+        -ms-transition: all .4s ease-in;
+        -o-transition: all .4s ease-in;
+        transition: all .4s ease-in; }
 
 /*# sourceMappingURL=main.css.map */
