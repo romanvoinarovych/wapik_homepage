@@ -812,35 +812,35 @@
 				line-height: 2.15;
 				position: absolute;
 			}
-			.form-control {
-				background-color: #eef1ec;
-				font-size: 13px;
-				font-family: 'Roboto', 'Arial', sans-serif;
-				border: none;
-				color: #83a7a5;
-				line-height: 1.38;
-			}
-			.form-control:focus {
-				box-shadow: 0 0 0 0.1rem rgba(111,176,72,.25)
-			}
-			.btn-secondary {
-				color: rgba(111,176,72,1);
-				background-color: #eef1ec;
-				border: none;
-			}
-			.btn-secondary.focus, .btn-secondary:focus {
-				box-shadow: 0 0 0 0.1rem rgba(111,176,72,.25)
-			}
-			.btn-secondary:not([disabled]):not(.disabled):active {
-				color: #fff;
-				background-color: #eef1ec;
-				border: none;
-				box-shadow: 0 0 0 0.1rem rgba(111,176,72,.25);
-			}
-			.input-group {
-				padding-bottom: 20px;
-			}
-	}
+		}
+		.form-control {
+			background-color: #eef1ec;
+			font-size: 13px;
+			font-family: 'Roboto', 'Arial', sans-serif;
+			border: none;
+			color: #83a7a5;
+			line-height: 1.38;
+		}
+		.form-control:focus {
+			box-shadow: 0 0 0 0.1rem rgba(111,176,72,.25)
+		}
+		.btn-secondary {
+			color: rgba(111,176,72,1);
+			background-color: #eef1ec;
+			border: none;
+		}
+		.btn-secondary.focus, .btn-secondary:focus {
+			box-shadow: 0 0 0 0.1rem rgba(111,176,72,.25)
+		}
+		.btn-secondary:not([disabled]):not(.disabled):active {
+			color: #fff;
+			background-color: #eef1ec;
+			border: none;
+			box-shadow: 0 0 0 0.1rem rgba(111,176,72,.25);
+		}
+		.input-group {
+			padding-bottom: 20px;
+		}
 	}
 	.wp-footer-bottom {
 		border-top: 1px solid #eef1ec;

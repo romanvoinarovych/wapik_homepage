@@ -687,27 +687,27 @@
       font-size: 13px;
       line-height: 2.15;
       position: absolute; }
-    .wp-footer-container .wp-footer--text .wp-footer-contact .form-control {
+    .wp-footer-container .wp-footer--text .form-control {
       background-color: #eef1ec;
       font-size: 13px;
       font-family: 'Roboto', 'Arial', sans-serif;
       border: none;
       color: #83a7a5;
       line-height: 1.38; }
-    .wp-footer-container .wp-footer--text .wp-footer-contact .form-control:focus {
+    .wp-footer-container .wp-footer--text .form-control:focus {
       box-shadow: 0 0 0 0.1rem rgba(111, 176, 72, 0.25); }
-    .wp-footer-container .wp-footer--text .wp-footer-contact .btn-secondary {
+    .wp-footer-container .wp-footer--text .btn-secondary {
       color: #6fb048;
       background-color: #eef1ec;
       border: none; }
-    .wp-footer-container .wp-footer--text .wp-footer-contact .btn-secondary.focus, .wp-footer-container .wp-footer--text .wp-footer-contact .btn-secondary:focus {
+    .wp-footer-container .wp-footer--text .btn-secondary.focus, .wp-footer-container .wp-footer--text .btn-secondary:focus {
       box-shadow: 0 0 0 0.1rem rgba(111, 176, 72, 0.25); }
-    .wp-footer-container .wp-footer--text .wp-footer-contact .btn-secondary:not([disabled]):not(.disabled):active {
+    .wp-footer-container .wp-footer--text .btn-secondary:not([disabled]):not(.disabled):active {
       color: #fff;
       background-color: #eef1ec;
       border: none;
       box-shadow: 0 0 0 0.1rem rgba(111, 176, 72, 0.25); }
-    .wp-footer-container .wp-footer--text .wp-footer-contact .input-group {
+    .wp-footer-container .wp-footer--text .input-group {
       padding-bottom: 20px; }
   .wp-footer-container .wp-footer-bottom {
     border-top: 1px solid #eef1ec; }
